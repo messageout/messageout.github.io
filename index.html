@@ -228,7 +228,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="透爷">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/touye.jpg">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -357,7 +357,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="透爷">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/touye.jpg">
+      <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -502,10 +502,6 @@
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="/images/touye.jpg"
-                alt="透爷" />
             
               <p class="site-author-name" itemprop="name">透爷</p>
               <p class="site-description motion-element" itemprop="description">微信公众号：透漏点消息</p>
@@ -723,7 +719,7 @@
   
   <script type="text/javascript">
     var GUEST = ['nick','mail','link'];
-    var guest = 'nick';
+    var guest = 'nick,mail';
     guest = guest.split(',').filter(item=>{
       return GUEST.indexOf(item)>-1;
     });
@@ -734,7 +730,7 @@
         appId: '6mafWQ6z7AwcTmYnH78xniKR-gzGzoHsz',
         appKey: 'iCE9Xa6VIi02nTiLUFdeKmrB',
         placeholder: '欢迎留言！在这里说出你的想法！',
-        avatar:'mm',
+        avatar:'',
         guest_info:guest,
         pageSize:'10' || 10,
     });
